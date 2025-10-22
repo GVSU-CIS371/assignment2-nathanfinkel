@@ -73,10 +73,10 @@
 </template>
 
 <script setup lang="ts">
-import Base from "./components/Base.vue";
+//import Base from "./components/Base.vue";
 import Beverage from "./components/Beverage.vue";
-import Creamer from "./components/Creamer.vue";
-import Syrup from "./components/Syrup.vue";
+//import Creamer from "./components/Creamer.vue";
+//import Syrup from "./components/Syrup.vue";
 import { temps, currentTemp, currentCreamer, currentSyrup, currentBase, creamers, syrups, bases } from "./stores/beverage";
 </script>
 
